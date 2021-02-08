@@ -1,4 +1,4 @@
-const setLoginContents = () => getLocalData('login') && window.location.replace('/order.html');
+const setLoginContents = () => getLocalData('login') && window.location.replace('./order.html');
 
 $(document).ready(function(e) {
     setLoginContents();
