@@ -11,20 +11,7 @@ $(document).ready(function(e) {
            setLocalData('login', true);
             alert('Login Successful!');
             window.location.href = './order.html'
-          /*  $.ajax({
-                type: "POST",
-                url: loginUrl,
-                data: {
-                    userName: "Qafi",
-                    password: "Password"
-                },
-                success: (success) => {
-                    setLocalData('login', true);
-                    alert('Login Successful!');
-                    window.location.href = './order.html'
-
-                }
-            });*/
+          
         } else {
             alert('Please enter the valid credential!');
         }
