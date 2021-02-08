@@ -69,4 +69,5 @@ header {
     right: 4rem;
     bottom: 1.4rem;
     font-weight: 600;
+    cursor: pointer;
 }
